@@ -1,0 +1,12 @@
+#this is git´s´s per-userconfiguration  file.
+[USER]
+EMAIL=Marielevanessa85@gmail.com
+name=mariele vanessa casa 
+[core]
+  editor=code-wait   
+  [push]
+   followtag=true
+  [alias]
+   s = !git status -s
+   c = !git add -all && git commit-m
+   l = !git log -pretty=format:´%c(blue)%h&c(red)%d %c(white)%s -&c(cyan)&cn, %c(green)%cr´
